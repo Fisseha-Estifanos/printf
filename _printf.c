@@ -29,16 +29,14 @@
 	for (i = 0; print[i].t != NULL; i++)
 	{
 		if (*(print[i].t) == *format)
-		{
 			break;
-		}
 	}
 	return (print[i].f);
 }
 
 /**
  * _printf - prints anything
- * @format: list of argument types passed to the function
+ * @format: list of argument types passed to the function.
  *
  * Return: number of characters printed
  */
